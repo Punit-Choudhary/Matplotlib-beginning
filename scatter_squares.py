@@ -14,5 +14,5 @@ plt.ylabel("Square of Value", fontsize=14)
 plt.tick_params(axis='both', which='major', labelsize=14)
 
 # Set the range for each axis.
-plt.axis([0, 1100, 0, 1100000]) # arguments : min, max value for x and y
+plt.axis([0, 1100, 0, 1100000]) # arguments : min, max value for x and y (xmin, xmax, ymin, ymax)
 plt.show()
